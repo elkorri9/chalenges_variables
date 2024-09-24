@@ -18,4 +18,6 @@ printf("your email is : %s \n ",email);
 printf("enter your sexe : ");
 scanf("%s",&sexe);
 printf("your sexe is : %s",sexe);
+
+    return 0 ;
 }
