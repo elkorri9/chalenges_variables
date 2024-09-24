@@ -1,21 +1,25 @@
 #include <stdio.h>
 
 int main() {
-    float  a , b , c  ;
-    float s , rs ;
-    printf("donner le nombre a  : ");
-    scanf("%f",&a);
-    printf("donner le nombre b : ");
-    scanf(" %f",&b);
-    printf("donner le nombre c  : ");
-    scanf("%f",&c);
-    s = a + b + c ;
-    rs = s/3 ;
-    printf("la moiyen de la moyenne pondérée est : %.2f ",rs);
+    int a , b , c ;
+    int m , s ;
+    printf("saisir le nembre a : ");
+    scanf("%d",&a);
+    printf("saisir le nembre b : ");
+    scanf("%d",&b);
+    printf("saisir le nembre c : ");
+    scanf("%d",&c);
+    m = ((a * 2) + (b * 3 ) + (c * 5)) ;
+    s = m/10 ;
+    printf("la moiyen ponderer est : %d",s);
+  
     
         
         
-   
+ 
+    
+    
+
     
     
     
